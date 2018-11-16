@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Devise Gemを追加したRailsアプリのサンプル
 
-Things you may want to cover:
+Twitterでログインする機能をつけている
 
-* Ruby version
+Viewを編集するためのインストールは済んでいて、app/views/usersを編集するとそのまま適用される
 
-* System dependencies
+controllerの編集のための設定は済んでいない。
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+TwitterのAPIKeyはルートディレクトリに.envというファイルに記述すること。
+そのままだと使えないよ。
